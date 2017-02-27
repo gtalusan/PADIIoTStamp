@@ -1,0 +1,17 @@
+padiiotstamp.name=PADI IoT Stamp
+padiiotstamp.vid.0=0x2341
+padiiotstamp.pid.0=0x003d
+padiiotstamp.upload.tool=openocd_tools
+padiiotstamp.upload.protocol=swd
+padiiotstamp.upload.maximum_size=2499639
+padiiotstamp.upload.use_1200bps_touch=false
+padiiotstamp.upload.wait_for_upload_port=false
+padiiotstamp.upload.native_usb=false
+padiiotstamp.build.mcu=cortex-m3
+padiiotstamp.build.f_cpu=166000000L
+padiiotstamp.build.usb_product="PADI IoT Stamp"
+padiiotstamp.build.board=AMEBA
+padiiotstamp.build.core=realtek:arduino
+padiiotstamp.build.extra_flags=-mthumb -DBOARD_RTL8710 {build.usb_flags}
+padiiotstamp.build.ldscript=linker_scripts/gcc/rtl8710-symbol-v03-img2_arduino_arduino.ld
+padiiotstamp.build.variant=realtek:rtl8710
