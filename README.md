@@ -16,6 +16,8 @@ Install OpenOCD.  The `platform.txt` assumes it lives in `/usr/local/bin`.
 
 The `platform.txt` also assumes you have an STLink V2 or compatible SWD debugger.  You can also change this in `platform.txt`.
 
+NOTE: this has only been tested on `macOS Sierra`.  Buyer beware.
+
 # Usage
 
 
@@ -94,3 +96,8 @@ number of available networks:13
 12) BELL842	Signal: -95 dBm	EncryptionRaw: WPA2 AES	Encryption: WPA2
 ```
 
+## Links
+
+[rebane's OpenOCD rtl8170 flasher](https://bitbucket.org/rebane/rtl8710_openocd/src)
+[PADI IoT Stamp pin out](http://files.pine64.org/doc/PADI/documentation/padi-pinout-diagram.pdf)
+[Ameba IoT Getting Started](http://www.amebaiot.com/en/ameba-arduino-getting-started/)
