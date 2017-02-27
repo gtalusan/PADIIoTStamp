@@ -9,14 +9,14 @@
         {
           "name": "PADI IoT Stamp (32-bits ARM Cortex-M3)",
           "architecture": "ameba",
-          "version": "0.0.1",
+          "version": "0.0.2",
           "category": "Contributed",
           "help": {
             "online": "http://www.github.com/gtalusan/PADIIoTStamp/"
           },
-          "url": "https://github.com/gtalusan/PADIIoTStamp/raw/master/release/padiiotstamp-0.0.1.tar.gz",
-          "archiveFileName": "padiiotstamp-0.0.1.tar.gz",
-          "checksum": "SHA-256:ba07e0883b6e0fb911630e597a6f8b7c77984dc6ec180f904b2937ca8152fae7",
+          "url": "https://github.com/gtalusan/PADIIoTStamp/raw/master/release/padiiotstamp-0.0.2.tar.gz",
+          "archiveFileName": "padiiotstamp-0.0.2.tar.gz",
+          "checksum": "SHA-256:ebb987e306df0c0f91008245748d4f919ec70cca6f5f39ef6de68bb187b434f1",
           "size": "529",
           "boards": [
             {"name": "PADI IoT Stamp"}
