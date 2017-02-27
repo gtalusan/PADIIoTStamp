@@ -99,5 +99,7 @@ number of available networks:13
 ## Links
 
 [rebane's OpenOCD rtl8170 flasher](https://bitbucket.org/rebane/rtl8710_openocd/src)
+
 [PADI IoT Stamp pin out](http://files.pine64.org/doc/PADI/documentation/padi-pinout-diagram.pdf)
+
 [Ameba IoT Getting Started](http://www.amebaiot.com/en/ameba-arduino-getting-started/)
