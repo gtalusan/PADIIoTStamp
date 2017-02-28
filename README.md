@@ -14,7 +14,9 @@ to your Arduino IDE and install the padiiotstamp package.
 
 Install OpenOCD.  The `platform.txt` assumes it lives in `/usr/local/bin`.
 
-The `platform.txt` also assumes you have an STLink V2 or compatible SWD debugger.  You can also change this in `platform.txt`.
+The `platform.txt` contains a menu to configure OpenOCD via the Arduino's Tools menu.  If you don't see your OpenOCD compatible device in the drop down, you likely need to add a new menu item.
+
+I accept patches.
 
 NOTE: this has only been tested on `macOS Sierra`.  Buyer beware.
 
