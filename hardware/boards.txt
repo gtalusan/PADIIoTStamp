@@ -1,3 +1,5 @@
+menu.OpenOCD=OpenOCD
+
 padiiotstamp.name=PADI IoT Stamp
 padiiotstamp.vid.0=0x2341
 padiiotstamp.pid.0=0x003d
@@ -15,3 +17,21 @@ padiiotstamp.build.core=realtek:arduino
 padiiotstamp.build.extra_flags=-mthumb -DBOARD_RTL8710 {build.usb_flags}
 padiiotstamp.build.ldscript=linker_scripts/gcc/rtl8710-symbol-v03-img2_arduino_arduino.ld
 padiiotstamp.build.variant=realtek:rtl8710
+
+padiiotstamp.menu.OpenOCD.buspirate=Bus Pirate
+padiiotstamp.menu.OpenOCD.buspirate.build.openocdcfg=buspirate.cfg
+
+padiiotstamp.menu.OpenOCD.jlink=JLink
+padiiotstamp.menu.OpenOCD.jlink.build.openocdcfg=jlink.cfg
+
+padiiotstamp.menu.OpenOCD.stlinkv1=STLink V1
+padiiotstamp.menu.OpenOCD.stlinkv1.build.openocdcfg=stlink-v1.cfg
+
+padiiotstamp.menu.OpenOCD.stlinkv2=STLink V2
+padiiotstamp.menu.OpenOCD.stlinkv2.build.openocdcfg=stlink-v2.cfg
+
+padiiotstamp.menu.OpenOCD.stlinkv21=STLink V2-1
+padiiotstamp.menu.OpenOCD.stlinkv21.build.openocdcfg=stlink-v2-1.cfg
+
+padiiotstamp.menu.OpenOCD.ulink=ULink
+padiiotstamp.menu.OpenOCD.ulink.build.openocdcfg=ulink.cfg
