@@ -98,6 +98,33 @@ number of available networks:13
 12) BELL842	Signal: -95 dBm	EncryptionRaw: WPA2 AES	Encryption: WPA2
 ```
 
+## I2C
+
+Works OK!
+
+```
+#include <U8g2lib.h>
+
+U8G2_SSD1306_128X64_NONAME_1_HW_I2C u8g2(U8G2_R0, 11);
+
+void setup(void)
+{
+	u8g2.begin();
+}
+
+void loop(void)
+{
+	u8g2.firstPage();
+	do {
+		u8g2.setFont(u8g2_font_ncenB14_tr);
+		u8g2.drawStr(0,20,"PADI IOT");
+	} while (u8g2.nextPage());
+	delay(1000);
+}
+```
+
+![alt text](PADI IoT Stamp I2C OLED.jpg "PADI IoT Stamp with eBay SSD1306 OLED")
+
 ## Links
 
 * [rebane's OpenOCD rtl8710 flasher](https://bitbucket.org/rebane/rtl8710_openocd/src)
