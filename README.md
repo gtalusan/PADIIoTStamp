@@ -1,4 +1,4 @@
-![alt text](./PADI IoT Stamp STLinkV2 w FTDI.jpg "PADI IoT Stamp with eBay STLink V2 and knock-off FTDI serial port")
+![alt text](./stlink-ftdi.jpg "PADI IoT Stamp with eBay STLink V2 and knock-off FTDI serial port")
 
 # Installation
 
@@ -123,7 +123,7 @@ void loop(void)
 }
 ```
 
-![alt text](./PADI IoT Stamp I2C OLED.jpg "PADI IoT Stamp with eBay SSD1306 OLED")
+![alt text](./i2c.jpg "PADI IoT Stamp with eBay SSD1306 OLED")
 
 ## Links
 
